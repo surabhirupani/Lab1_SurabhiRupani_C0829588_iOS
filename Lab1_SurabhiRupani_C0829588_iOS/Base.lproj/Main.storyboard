@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="b0l-Ti-tM5">
             <objects>
-                <viewController id="rDc-43-dy3" customClass="ViewController" customModule="TicTacToe_template" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rDc-43-dy3" customClass="ViewController" customModule="Lab1_SurabhiRupani_C0829588_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mG4-1T-pvp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

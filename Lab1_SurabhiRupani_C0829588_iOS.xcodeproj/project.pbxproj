@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B33E22E8279F6F84001A7E77 /* TicTakToeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B33E22E6279F6F84001A7E77 /* TicTakToeModel.xcdatamodeld */; };
 		B345715F27979D9A007E167F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345715E27979D9A007E167F /* AppDelegate.swift */; };
 		B345716127979D9A007E167F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345716027979D9A007E167F /* SceneDelegate.swift */; };
 		B345716327979D9A007E167F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345716227979D9A007E167F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B33E22E7279F6F84001A7E77 /* TicTakToeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTakToeModel.xcdatamodel; sourceTree = "<group>"; };
 		B345715B27979D9A007E167F /* Lab1_SurabhiRupani_C0829588_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1_SurabhiRupani_C0829588_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B345715E27979D9A007E167F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B345716027979D9A007E167F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B345716727979D9A007E167F /* Assets.xcassets */,
 				B345716927979D9A007E167F /* LaunchScreen.storyboard */,
 				B345716C27979D9A007E167F /* Info.plist */,
+				B33E22E6279F6F84001A7E77 /* TicTakToeModel.xcdatamodeld */,
 			);
 			path = Lab1_SurabhiRupani_C0829588_iOS;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33E22E8279F6F84001A7E77 /* TicTakToeModel.xcdatamodeld in Sources */,
 				B345716327979D9A007E167F /* ViewController.swift in Sources */,
 				B345715F27979D9A007E167F /* AppDelegate.swift in Sources */,
 				B345716127979D9A007E167F /* SceneDelegate.swift in Sources */,
@@ -358,6 +362,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B33E22E6279F6F84001A7E77 /* TicTakToeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B33E22E7279F6F84001A7E77 /* TicTakToeModel.xcdatamodel */,
+			);
+			currentVersion = B33E22E7279F6F84001A7E77 /* TicTakToeModel.xcdatamodel */;
+			path = TicTakToeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B345715327979D9A007E167F /* Project object */;
 }
